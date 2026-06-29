@@ -6,8 +6,7 @@ import App from './App.tsx'
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-      <App />
+    <BrowserRouter basename="/forward-medical-center">
     </BrowserRouter>
   </StrictMode>,
 )
